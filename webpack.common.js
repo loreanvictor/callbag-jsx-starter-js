@@ -23,6 +23,6 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin(),
-    new HtmlWebpackPlugin({ title: 'Render-JSX Sample Project!' })
+    new HtmlWebpackPlugin({ title: 'Callbag-JSX Sample Project!' })
   ]
 }
