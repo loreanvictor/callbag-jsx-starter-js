@@ -10,6 +10,8 @@
     1. Dev version is served on `localhost:3000`
 1. Build your app: `npm run build`
     1. Build files are in `dist/`
+1. Run tests: `npm test`
+    1. Test root is `src/test/index.js`
 
 👉 Don't forget to [read the docs](https://loreanvictor.github.io/callbag-jsx/).
 
@@ -28,4 +30,8 @@
   - Prod specific config in `webpack.prod.js`
 
 - [ESLint](https://eslint.org) for linting
+  - [ESLint Plugin React](https://github.com/yannickcr/eslint-plugin-react) for JSX support
   - Configuration in `.eslintrc`
+
+- [Mocha](https://mochajs.org/#configuring-mocha-nodejs) & [Chai](https://www.chaijs.com) for testing
+  - [`@babel/register`](https://babeljs.io/docs/en/babel-register) for binding Babel and Mocha

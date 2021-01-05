@@ -1,4 +1,31 @@
 {
   "parser": "babel-eslint",
-  "extends": "standard"
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "settings": {
+    "react": {
+      "pragma": "renderer"
+    }
+  },
+  "rules": {
+    "react/no-deprecated": "off",
+    "semi": ["error", "never"],
+    "quotes": ["error", "single", {"avoidEscape": true}],
+    "curly": "error",
+    "prefer-const": "error",
+    "eqeqeq": "error",
+    "no-trailing-spaces": "error",
+    "eol-last": "error",
+    "prefer-spread": "error",
+    "prefer-object-spread": "error",
+    "indent": ["error", 2],
+    "no-shadow": "error"
+  },
+  "env": {
+    "browser": true,
+    "mocha": true,
+    "node": true
+  }
 }
