@@ -18,7 +18,7 @@ npm i             # 👉  install dependencies
 ```
 ```bash
 npm start         # 👉  start dev server
-                  # --> entry file is src/index.tsx
+                  # --> entry file is src/index.jsx
                   # --> served on localhost:3000
 ```
 ```bash
@@ -41,10 +41,11 @@ npm test          # 👉  run tests
   - [`@babel/plugin-proposal-pipeline-operator`](https://babeljs.io/docs/en/babel-plugin-proposal-pipeline-operator) for `|>` operator support
   - Configuration in `.babelrc`
 
-- [Webpack](https://webpack.js.org) for bundling and dev server
-  - Configuration in `webpack.common.js`
-  - Dev specific config in `webpack.dev.js`
-  - Prod specific config in `webpack.prod.js`
+- [Snowpack](https://www.snowpack.dev) for dev server
+  - Configuration in `snowpack.config.js`
+
+- [Webpack](https://webpack.js.org) for production bundling
+  - Configuration in `webpack.config.js`
 
 - [ESLint](https://eslint.org) for linting
   - [ESLint Plugin React](https://github.com/yannickcr/eslint-plugin-react) for JSX support

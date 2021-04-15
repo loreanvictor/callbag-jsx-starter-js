@@ -13,7 +13,7 @@ const displayName = name |> filter(n => n.length > 0) |> map(format)
 
 renderer.render(
   <>
-    <div>Hellow {displayName}!</div>
+    <div>Hola {displayName}!</div>
     <input _state={name} type='text' placeholder='name ...'/>
 
     <br/><br/>
