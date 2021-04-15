@@ -42,6 +42,7 @@ npm test          # 👉  run tests
   - Configuration in `.babelrc`
 
 - [Snowpack](https://www.snowpack.dev) for dev server
+  - [`@snowpack/plugin-babel`](https://github.com/snowpackjs/snowpack/tree/main/plugins/plugin-babel#readme) for making Snowpack use Babel plugins
   - Configuration in `snowpack.config.js`
 
 - [Webpack](https://webpack.js.org) for production bundling
